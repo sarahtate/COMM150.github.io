@@ -1,5 +1,5 @@
 body{
-    background-color : rgb(212, 233, 246);
+    background-color : rgb(225, 243, 255);
 }
 
 
@@ -7,17 +7,14 @@ h1, h3{
     color:rgb(249, 177, 172);
 }
 
-h1{
-    font-size: 36px;
-}
 
-hr{
-    color: red;
-    height: 10px;
-    width: 50%;
-}
 
-p, h3, h1{
-    font-family: 'Abril Fatface', cursive;
+h5{
+    font-family: 'Playfair Display', serif;
     font-size: 32px;
+    color: rgb(255, 0, 0);
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
 }
