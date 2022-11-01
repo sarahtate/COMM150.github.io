@@ -1,0 +1,23 @@
+body{
+    background-color : rgb(212, 233, 246);
+}
+
+
+h1, h3{
+    color:rgb(249, 177, 172);
+}
+
+h1{
+    font-size: 36px;
+}
+
+hr{
+    color: red;
+    height: 10px;
+    width: 50%;
+}
+
+p, h3, h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+}
