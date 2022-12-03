@@ -39,6 +39,12 @@ tw-link{
 tw-link.visited {
   color: #646C8F;
 }
+tw-click{
+  color:#8F797E;
+  font-weight: bold;
+  font-size: 24px;
+	text-decoration: none;
+}
 
 
 
@@ -110,7 +116,7 @@ Time to grind!
 
 An ad pops up on your screen. Ohhh [[Lulu Lemon]] has great deals right now!! I&#39;ll just take a quick peek.
 
-(if: $distraction &gt; 0) [
+(if: $distraction &gt;= 1) [
 or
 
 Just ignore it all and move on. You have to [[study!]]]</tw-passagedata><tw-passagedata pid="11" name="Coffeehouse" tags="" position="1150,675" size="100,100">[[a song plays that reminds you of...]]</tw-passagedata><tw-passagedata pid="12" name="Lulu Lemon" tags="" position="1275,950" size="100,100">should you buy 
@@ -129,14 +135,14 @@ But hey, at least you feel more confident about the exam tomorrow.
 your ex because you always sang it to each other when it came on. 
 
 You&#39;re reminded of how aweful he treated you. 
+[This requires a click.] (click: &quot;click&quot;)  
+[Like that time he kissed you and told you your breath smelled]
 
-Like that time he kissed you and told you your breath smelled
-and
-how he always chewed with his mouth open
-and
-how he always made you drive
-and
-how he spent more time building legos than he spent with you
+[or] (click: &quot;or&quot;)  [how he always chewed with his mouth open]
+
+[or] (click: &quot;or&quot;)  [how he always made you drive]
+
+[or] (click: &quot;or&quot;)  [how he spent more time building legos than he spent with you]
 
 Ugh he just makes you so angry sometimes!!!
 [[Next]]</tw-passagedata><tw-passagedata pid="15" name="Continue" tags="" position="475,725" size="100,100">You get upset since you were so deep in thought. You ask her what happened
